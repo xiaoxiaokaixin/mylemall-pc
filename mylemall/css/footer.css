@@ -1,0 +1,99 @@
+/*底部第一行：服务*/
+.footer_service{
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.footer_service>ul>li{
+  float: left;
+  margin: 0 50px;
+}
+.footer_service>ul>li>a{
+  color: #666666;
+  padding-right:53px;
+}
+.footer_service>ul>li>a:hover{
+  color:red;
+}
+.footer_service>ul>li>a>img{
+  height: 30px;
+  border: 1px solid #666666;
+  padding: 3px;
+  vertical-align: middle;
+  border-radius:30%;
+  margin: 0 10px;
+}
+.footer_service>ul>li>a>img:hover{
+  border: 1px solid red;
+}
+/*底部第二行：底部主要内容*/
+.footer{
+  width: 100%;
+  min-width: 1200px;
+  height:262px;
+  background: #191919;
+  margin-top: 20px;
+}
+.footer_container{
+	width: 1200px;
+	height: 220px;
+	margin: 0 auto;
+	border-bottom:1px solid #787878;
+}
+.footer_container>ul{
+	float: left;
+	margin:30px 50px 100px 50px;
+}
+.footer_container>ul>h5{
+	color:#c4c2c2;
+	margin-bottom: 10px;
+}
+.footer_container>ul>li>a{
+	color:#787878;
+	font-size: 12px;
+	margin:5px 0;
+}
+.footer_container>ul>li>a:hover{
+	color:red;
+}
+.footer_container>div{
+	float: left;
+	margin: 70px 0 0 150px;
+	text-align: center;
+}
+.footer_container>div>a{
+	color:red;
+	border:1px solid #575756;
+	padding: 6px;
+	background:#2d2c2d ;
+}
+.footer_container>div>a:hover{
+	background:#474547 ;
+}
+.footer_container>div>p{
+	margin-top: 30px;
+	font-size: 12px;
+	color: white;
+}
+.footer_bottom{
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer_bottom>p{
+  position:absolute;
+  color:#787878;
+  font-size: 12px;
+  top: 8px;
+  left:300px;
+}
+/*end*/
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+/*基础样式*/
+*{
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+a:hover{
+  color:red;
+}
+body{
+  background: #F7F7F8;
+  margin: 0 auto;
+}
+/*设置引入样式:消除iframe的边距*/
+iframe{
+	display: block;
+	width:100%;
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.iframe_header{
+  height: 175px;
+}
+
+
+

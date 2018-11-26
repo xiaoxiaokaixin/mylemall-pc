@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>主页</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+	<header id="header"></header>
+		<!--轮播图和列表-->
+    <div class="lb_back">
+      <div class="lb">
+        <div class="lunbo" id="lunbo">
+          <img src="img/index/lunbo1.jpg" alt=""  class="show"/>
+          <img src="img/index/lunbo2.jpg" alt=""/>
+          <img src="img/index/lunbo3.jpg" alt=""/>
+          <img src="img/index/lunbo4.jpg" alt=""/>
+        </div>
+
+        <ul class="lunbo_list" id="list_show">
+          <li><a href="#">爆款推荐</a></li>
+          <li><a href="#">电视系列</a></li>
+          <li><a href="#">电视类型</a></li>
+          <li><a href="#">屏幕尺寸</a></li>
+          <li><a href="#">智能硬件</a></li>
+          <li><a href="#">精品配件</a></li>
+        </ul>
+
+        <!--隐藏商品列表-->
+        <div class="lunbo_choose">
+          <!--左侧列表-->
+          <div>
+
+            <ul>
+              <li><a href="product.html"><img src="img/index/list1.jpg" alt="">X40L</a></li>
+              <li><a href="product.html"><img src="img/index/list2.jpg" alt="">X60L</a></li>
+              <li><a href="product.html"><img src="img/index/list3.jpg" alt="">超4 MAX55</a></li>
+              <li><a href="product.html"><img src="img/index/list4.jpg" alt="">X43L</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="product.html"><img src="img/index/list5.jpg" alt="">Unique 75S</a></li>
+              <li><a href="product.html"><img src="img/index/list6.jpg" alt="">超4 MAX65</a></li>
+              <li><a href="product.html"><img src="img/index/list7.jpg" alt="">X50L</a></li>
+              <li><a href="product.html"><img src="img/index/list8.jpg" alt="">X50 Pro</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="product.html"><img src="img/index/list9.jpg" alt="">超4 X70</a></li>
+              <li><a href="product.html"><img src="img/index/list10.jpg" alt="">X55L</a></li>
+              <li><a href="product.html"><img src="img/index/list11.jpg" alt="">X65s</a></li>
+              <li><a href="product.html"><img src="img/index/list12.jpg" alt="">超4 X75</a></li>
+            </ul>
+
+          </div>
+          <!--右侧图片-->
+          <img src="img/index/show.jpg" alt="">
+
+        </div>
+
+      </div>
+    </div>
+		<!--精品:一行：五块-->
+		<div class="index_show">
+      <div class="row_3">
+        <div>
+          <span>商城公告<a href="" id="a1">MORE</a></span>
+          <p>
+            <a href="#" id="a2">【公告】乐视商城首发</a>
+          </p>
+          <p>
+            <a href="#" id="a3">【公告】防诈骗声明</a>
+          </p>
+        </div>
+					<!--注意：图片之间不能有空格，否则会有左右间距-->
+					<img src="img/index/p_1.jpg" alt="" /><img src="img/index/p_2.jpg" alt="" /><img src="img/index/p_3.jpg" alt="" /><img src="img/index/p_4.jpg" alt="" />	
+      </div>
+		</div>
+		
+			<!--标题:一楼-->
+			<div class="title">
+				<h2>
+				<img src="img/index/tv.png" alt="" />
+				智能大屏
+				</h2>
+			
+			<!--标题下的列表-->
+				<ul>
+					<li><a href="#">40时</a><b>|</b></li>
+					<li><a href="#">50时</a><b>|</b></li>
+					<li><a href="#">55时</a><b>|</b></li>
+					<li><a href="#">65时</a></li>
+				</ul>
+			</div>
+			<!--第一层产品-->
+    <div class="f1">
+
+      <div class="f1_row">
+
+        <a href="product.html" id="c1_img">
+          <img src="img/index/c1.jpg" alt=""/>
+        </a>
+		<!--从后台数据库获得-->
+		<a href="product.html" class="block_all">
+          
+        </a>
+		
+      </div>
+
+      <div class="f1_row">
+
+      </div>
+
+      <div class="f1_row">
+
+      </div>
+
+    </div>
+
+      <!--标题:二楼-->
+    <div class="title">
+      <h2>
+        <img src="img/index/ear.png" alt="" />
+        精品配件
+      </h2>
+
+      <!--标题下的列表-->
+      <ul>
+        <li><a href="#">底座</a><b>|</b></li>
+        <li><a href="#">挂架</a><b>|</b></li>
+        <li><a href="#">游戏娱乐</a></li>
+      </ul>
+    </div>
+
+      <!--第二层产品-->
+    <div class="f2">
+      <!--第一行-->
+      <div class="f2_row1">
+
+      </div>
+      <!--第二行-->
+      <div class="f2_row2">
+
+      </div>
+
+    </div>
+
+    <!--引入底部-->
+    <iframe id="iframe_footer" src="footer.html" frameborder="no" height="322px"></iframe>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+	<script src="js/index.js"></script>
+	</body>
+</html>

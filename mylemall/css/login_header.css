@@ -1,0 +1,43 @@
+/*登陆和注册页面导航的样式*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  width: 100%;
+  min-width: 1200px;
+  height: 90px;
+  border-bottom: 1px solid #eeeeee;
+}
+.nav_center{
+  width: 1200px;
+  height:90px;
+  margin: 0 auto;
+}
+.nav_center>img{
+  width: auto;
+  height:47px;
+  margin: 30px 0 0 45px;
+}
+.nav_center>ul{
+  float: right;
+  margin-top: 60px;
+}
+.nav_center>ul>li{
+  list-style: none;
+  float: left;
+  font-size: 14px;
+  color: #a4a4a4;
+  margin-right:15px ;
+}
+.nav_center>ul>li>a{
+  color: #a4a4a4;
+}
+#help{
+  text-decoration: none;
+}
+.nav_center>ul>li>a:hover{
+  color:#419ce3;
+}
+
+/*end*/

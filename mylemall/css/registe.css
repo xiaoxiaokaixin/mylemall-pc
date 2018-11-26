@@ -1,0 +1,108 @@
+/*注册页面样式*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.login_box{
+    width: 100%;
+    height:483px;
+}
+.login_box_center{
+    width:1200px;
+    height:472px;
+    margin: 0 auto;
+}
+.login_box_center>div{
+    width: 400px;
+    height: 430px;
+    float: right;
+    margin: 6px;
+    padding: 15px;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.first_row{
+    margin-bottom: 30px;
+}
+.first_row>span{
+    font-size: 18px;
+    color: #333;
+    float: left;
+}
+.first_row>a{
+    float: right;
+    font-size: 14px;
+    color:#529bef;
+}
+.second_row{
+    width: 398px;
+    height: 42px;
+    border: 1px solid #a4a4a4;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+.second_row>img{
+    height: 32px;
+    vertical-align: middle;
+    margin:0 10px 0 20px;
+}
+.second_row>input{
+    border: none;
+    line-height: 42px;
+    font-size: 14px;
+    outline: 0;
+}
+.third_row>b{
+    font-size: 14px;
+    color: #a4a4a4;
+    font-weight: normal;
+}
+.third_row>a{
+    color:#529bef;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.fourth_row{
+    margin-top: 15px;
+}
+.fourth_row>a{
+    display: block;
+    color: white;
+    border: 2px solid #009de6;
+    background: #009de6;
+    font-size: 18px;
+    text-align: center;
+    width: 396px;
+    height: 38px;
+    line-height: 38px;
+}
+.fourth_row>a:hover{
+    opacity: 0.9;
+}
+
+
+
+
+/*引入样式*/
+iframe{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
